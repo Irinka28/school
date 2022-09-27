@@ -6,7 +6,8 @@
     background-color: lavenderblush;
 }
 body {
-     color: #2A7C6F;
+    overflow-x:hidden;
+    color: #2A7C6F;
     background-color: #eeebf2	;
 }
 nav {
@@ -65,7 +66,7 @@ nav ul li.selected {
     display: flex;
     flex-direction: row-reverse;
 }
-.bloc_2_text{
+.bloc_2_text {
     background-image: url("/image/children.png");
     background-repeat: no-repeat;
     background-position:bottom right;
@@ -88,9 +89,21 @@ nav ul li.selected {
     margin-right:100px;
     margin-top: 30px;
 }
-.form_1{
-
+.divede {
+text-align: center
 }
-.footer1{
+.footer1 {
     text-align: center;
+}
+.container{
+    border: 5px solid #ffcc33;
+}
+
+.item_1, .item_2, .item_3, .item_4, .item_5, .item_6{
+    margin: 20px;
+}
+.idea_morning{
+    text-align: center;
+    border: 5px solid #2A7C6F;
+    margin: 30px;
 }
