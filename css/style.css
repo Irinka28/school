@@ -8,7 +8,7 @@
 body {
     overflow-x:hidden;
     color: #2A7C6F;
-    background-color: #eeebf2	;
+    background-color: #eeebf2;
 }
 nav {
     margin: 10px 10px 0px 10px;
@@ -85,7 +85,7 @@ nav ul li.selected {
     padding-right: 370px;
     margin: 30px 100px 50px 50px;
 }
-.bloc_2_iframe{
+.bloc_2_iframe {
     margin-right:100px;
     margin-top: 30px;
 }
@@ -95,14 +95,24 @@ text-align: center
 .footer1 {
     text-align: center;
 }
-.container{
+.container {
     border: 5px solid #ffcc33;
 }
 
-.item_1, .item_2, .item_3, .item_4, .item_5, .item_6{
-    margin: 20px;
+.item_1, .item_2 {
+    text-align: left;
+    margin: 10px 600px 10px 80px;
+
 }
-.idea_morning{
+.item_3, .item_4 {
+    text-align: center;
+    margin: 10px 100px 10px 600px;
+}
+.item_5, .item_6 {
+    text-align: left;
+    margin: 10px 600px 10px 80px;
+}
+.idea_morning {
     text-align: center;
     border: 5px solid #2A7C6F;
     margin: 30px;
@@ -116,14 +126,13 @@ text-align: center
 .film_blok_text {
     margin: 100px;
 }
-.game_bl{
+.game_bl {
     display: flex;
     flex-direction: row-reverse;
     text-align: center;
     margin: 30px;
-
 }
-.game_bl_text{
+.game_bl_text {
     margin: 0px 250px 100px 250px;
     padding: 0;
     border: 5px solid #2A7C6F;
@@ -135,7 +144,6 @@ text-align: center
     text-align: center;
     background-repeat: no-repeat;
 }
-
 .book2 {
     background-image: url("/image/book2.jpg");
     text-align: left;
@@ -143,7 +151,7 @@ text-align: center
     background-position:top left;
     padding: 200px 10px 20px 5px;
 }
-.book3{
+.book3 {
     background-image: url("/image/book3.jpg");
     padding: 90px 140px 300px 50px;
     margin: 20px 400px ;
@@ -156,8 +164,15 @@ text-align: center
     text-align: center;
     border: 5px #2A7C6F solid;
 }
-.parents{
+.parents {
     display: flex;
     flex-direction: row-reverse;
     text-align: center;
+}
+#cat {
+    position: fixed;
+    top: 200px;
+    left: 0px;
+    box-sizing: border-box;
+    display: block
 }

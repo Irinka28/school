@@ -1,0 +1,26 @@
+body {
+    background: #eeebf2 url(/images/cat2.png) top left;
+    margin: 20px;
+    color: #2A7C6F;
+}
+form {
+    display: table;
+    padding: 10px;
+    border: thin dotted #2A7C6F;
+    background-color: #fc3;
+}
+form textarea {
+    width: 500px;
+    height: 200px;
+}
+div.tableRow { display: table-row;
+}
+div.tableRow p {
+    display: table-cell;
+    vertical-align: top;
+    padding: 3px;
+}
+div.tableRow p:first-child { text-align: right;
+}
+p.heading { font-weight: bold;
+}

@@ -1,0 +1,128 @@
+<html lang="ua">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" >
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <meta name="author" content="Клюйко Ірина">
+</head>
+<body>
+
+<form action=" ... " method="post">
+    <div class="tableRow">
+        <p>
+            Виберіть книгу:
+        </p>
+        <p>
+            <select name="книга">
+                <option value="Казки дядечка Римуса">"Казки дядечка Римуса"</option>
+                <option value="Тимко і гелготунчик Шкода">“Тимко і гелготунчик Шкода”</option>
+                <option value="Чарлі і шоколадна фабрика">“Чарлі і шоколадна фабрика”</option>
+                <option value="Тореадори з Васюківки">“Тореадори з Васюківки”</option>
+                <option value="Таємний лист на день народження">“Таємний лист на день народження”</option>
+            </select>
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>Тип:
+        </p>
+        <p>
+        <input type="radio" name="beantype" value="тверда палітурка"> тверда палітурка
+        <br>
+        <input type="radio" name="beantype" value="м'яка палітурка" checked> м'яка палітурка
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>
+            кількість книг:
+        </p>
+        <p>
+            <input type="number" name="amount" min="1" max="10">
+        </p>
+    </div>
+    <div class="tableRow label">
+        <p>
+            Доставити до вказаної дати:
+        </p>
+        <p>
+            <input type="date" name="date">
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>
+            Додаткові послуги:
+        </p>
+        <p>
+        <input type="checkbox" name="extras[]" value="подаруновий пакет"> подаруновий пакет<br>
+        <input type="checkbox" name="extras[]" value="подарунковий папір" checked> подарунковий папір
+        </p>
+    </div>
+    <div class="tableRow">
+        <p class="heading">
+            Доставити за адресою:
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>
+            Ім'я:
+        </p>
+        <p>
+            <input type="text" name="name" value="">
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>
+            Вулиця, будинок, квартира:
+        </p>
+        <p>
+            <input type="text" name="address" value="">
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>
+            Місто:
+        </p>
+        <p>
+            <input type="text" name="city" value="">
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>
+            Країна:
+        </p>
+        <p>
+            <input type="text" name="state" value="">
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>
+            Поштовий індекс:
+        </p>
+        <p>
+            <input type="text" name="zip" value="">
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>
+            Телефон:
+        </p>
+        <p>
+            <input type="tel" name="phone" value="">
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>
+            Коментарі клієнтів:
+        </p>
+        <p>
+        <textarea name="comments" rows="10" cols="48"></textarea>
+        </p>
+    </div>
+    <div class="tableRow">
+        <p> <input type="submit" value="Замовити">
+        </p>
+    </div>
+
+</form>
+</body>
+</html>
