@@ -40,7 +40,7 @@ nav ul li.selected {
     padding: 20px;
 }
 .bloc_1_text {
-    background-image: url("/image/teacher.png");
+    background-image: url("../image/teacher.png");
     background-repeat: no-repeat;
     background-position:top left;
     color:#444444;
@@ -67,7 +67,7 @@ nav ul li.selected {
     flex-direction: row-reverse;
 }
 .bloc_2_text {
-    background-image: url("/image/children.png");
+    background-image: url("../image/children.png");
     background-repeat: no-repeat;
     background-position:bottom right;
     background-size: 40%;
@@ -138,21 +138,21 @@ text-align: center
     border: 5px solid #2A7C6F;
 }
 .book1 {
-    background-image: url("/image/book1.jpg");
+    background-image: url("../image/book1.jpg");
     padding: 90px 140px 50px 50px;
     margin: 20px 400px ;
     text-align: center;
     background-repeat: no-repeat;
 }
 .book2 {
-    background-image: url("/image/book2.jpg");
+    background-image: url("../image/book2.jpg");
     text-align: left;
     background-repeat: no-repeat;
     background-position:top left;
     padding: 200px 10px 20px 5px;
 }
 .book3 {
-    background-image: url("/image/book3.jpg");
+    background-image: url("../image/book3.jpg");
     padding: 90px 140px 300px 50px;
     margin: 20px 400px ;
     text-align: center;
